@@ -1,0 +1,15 @@
+{
+    "name": "solicitudes-reparacion",
+    "version": "1.0.0",
+    "description": "Aplicación para gestionar solicitudes de reparación de joyería",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.13.7",
+        "pdf-lib": "^1.17.1"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}

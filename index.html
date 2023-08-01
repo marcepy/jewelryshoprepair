@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Reparación de Joyería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Solicitud de Reparación de Joyería</h1>
+        <form id="solicitudForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required>
+
+            <label for="articulos">Artículos para reparar:</label>
+            <input type="text" id="articulos" required>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea>
+
+            <label for="costos">Costos:</label>
+            <select id="costos" required>
+                <option value="5000">5.000</option>
+                <option value="10000">10.000</option>
+                <option value="15000">15.000</option>
+                <option value="20000">20.000</option>
+                <option value="30000">30.000</option>
+                <option value="cotizar">A cotizar</option>
+            </select>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
